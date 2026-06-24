@@ -28,6 +28,7 @@ rag:
   chunk-overlap: 50
   top-k: 4
   vector-store: memory
+  knowledge-dir: classpath:knowledge/
 
 # 日志配置
 logging:
