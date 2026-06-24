@@ -17,6 +17,11 @@ llm:
     max-tokens: 4096
     timeout: 60
 
+  embedding:
+    base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    api-key: ${DASHSCOPE_API_KEY:sk-default-key}
+    model-name: text-embedding-v4
+
 # RAG 配置
 rag:
   chunk-size: 500
